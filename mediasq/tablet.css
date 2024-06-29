@@ -1,0 +1,363 @@
+@media (min-width: 451px) and (max-width: 768px) {
+
+body header {
+width: 100%;
+height: 100px;
+padding: 0px;
+}
+
+header .h2-1 {
+display: flex;
+width: 20%;
+margin-top: 5px;
+font-size: 28.6px;
+padding: 0px;
+justify-content: center;
+align-items: center;
+}
+
+header .h2-2 {
+display: none;
+}
+
+header .logored {
+width: 96px;
+height: 96px;
+margin: 0px;
+}
+
+header ul {
+display: flex;
+flex-flow: column wrap;
+width: 30%;
+margin: 0px 7px 0px 0px;
+padding: 0px;
+justify-content: center;
+align-items: center;
+}
+
+header ul li {
+padding: 0px;
+margin: 0px;
+}
+
+header ul li a {
+font-size: 12px;
+letter-spacing: 1px;
+padding: 7px 20px;
+scale: 1;
+transition: 0.3s;
+}
+
+.bordadolink {
+display: flex;
+flex-flow: column wrap;
+overflow: hidden;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px;
+justify-content: center;
+align-items: center;
+}
+
+#prim-coluna {
+display: flex;
+flex-flow: column wrap;
+padding: 0px;
+margin: 0px 0px 0px 0px;
+justify-content: center;
+align-items: center;
+/* border: 1px solid lightgreen; */
+}
+
+#prim-coluna a {
+padding: 7px 5px;
+}
+
+#bordadoom {
+display: block;
+}
+
+#toalhaom {
+display: block;
+}
+
+#toalhaom a {
+margin-top: 5px;
+}
+
+#estampaom {
+display: block;
+margin-top: 5px;
+}
+
+#estampaom a {
+padding: 7px 25px;
+}
+
+.link-container {
+display: none;
+}
+
+.sobre {
+display: flex;
+flex-flow: column wrap;
+padding: 0px;
+/* border: 1px solid green; */
+justify-content: center;
+align-items: center;
+}
+
+.section1 {
+margin: 0px;
+width: 350px;
+}
+
+.section1 h2 {
+font-size: 35px;
+}
+
+.section1 p {
+font-size: 22px;
+}
+
+.section2 {
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+/* border: 1px solid red; */
+}
+
+.card1 {
+margin: 20px 10px 0px 0px;
+width: 300px;
+height:300px;
+}
+
+.card1:hover {
+scale: 1;
+}
+
+.card2 {
+margin: 20px 0px 0px 0px;
+width: 300px;
+height: 300px;
+}
+
+.card2:hover {
+scale: 1;
+}
+
+.card3 {
+margin: 20px 10px 0px 0px;
+width: 300px;
+height: 300px;
+}
+
+.card3:hover {
+scale: 1;
+}
+
+.card4 {
+margin: 20px 0px 0px 0px;
+width: 300px;
+height: 300px;
+}
+
+.card4:hover {
+scale: 1;
+}
+
+#prodmrg {
+margin: 0px 0px 20px 0px;
+}
+
+.ttprod h2 {
+ font-size: 55px;
+}
+
+.ttprod img {
+ width: 60px;
+ height: 55px;
+}
+
+.bordado {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+margin: 0px;
+padding: 0px;
+}
+
+.bordado .fundoprod {
+width: 300px;
+height: 300px;
+margin: 0px 10px 20px 0px;
+}
+
+.bordado img {
+width: 300px;
+height: 300px;
+}
+
+.bordado .fundoprod:hover {
+scale: 1;
+}
+
+#prodmrg {
+margin: 0px 10px 20px 0px;
+}
+
+.finalprod {
+display: block;
+}
+
+.toalha {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+margin: 0px;
+padding: 0px;
+}
+
+.toalha .fundoprod {
+width: 300px;
+height: 300px;
+margin: 0px 10px 20px 0px;
+}
+
+.toalha img {
+width: 300px;
+height: 300px;
+}
+
+.estampa .fundoprod:hover {
+scale: 1;
+}
+
+.estampa {
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+margin: 0px;
+padding: 0px;
+}
+
+.estampa .fundoprod {
+width: 300px;
+height: 300px;
+margin: 0px 10px 20px 0px;
+}
+
+.estampa img {
+width: 300px;
+height: 300px;
+}
+
+.estampa .fundoprod:hover {
+scale: 1;
+}
+
+footer {
+display: flex;
+flex-flow: column wrap;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+footer .tudofoot {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+}
+
+footer .barra {
+    display: none;
+}
+
+footer .footinfo {
+    margin-bottom: 15px;
+}
+
+footer a {
+    margin-bottom: 15px;
+}
+
+footer .endereco {
+    margin-bottom: 15px;
+}
+
+.mascotinha-fly {
+display: none;
+}
+
+.caixa-fly {
+display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

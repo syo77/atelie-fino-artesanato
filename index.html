@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Atelie de panos e obras de arte" />
+    <meta name="keywords" content="panos, artesanato, arte, cores" />
+
+    <link rel="icon" href="../img/logo_redondab.png" type="image/jpg" />
+    <title>Atelie Fino Artesanato</title>
+    <link rel="stylesheet" href="../finoartesanato/style.css" />
+    <link rel="stylesheet" href="../mediasq/celulargra.css" />
+    <link rel="stylesheet" href="../mediasq/tablet.css" />
+    <link rel="stylesheet" href="../mediasq/laptop.css" />
+    <link rel="stylesheet" href="../mediasq/laptopgra.css" />
+    <link rel="stylesheet" href="../mediasq/celularpeq.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Quando o link com a classe 'scroll-suave' é clicado
+        $("a.scroll-suave").on("click", function (e) {
+          // Previne o comportamento padrão do link
+          e.preventDefault();
+
+          // O atributo 'href' do link é usado para identificar o id do elemento de destino
+          var id = $(this).attr("href");
+
+          // Anima a rolagem até o elemento de destino
+          $("html, body").animate(
+            {
+              scrollTop: $(id).offset().top,
+            },
+            1000
+          ); // A duração da animação é de 1000 milissegundos (1 segundo)
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <a
+      target="_blank"
+      href="https://wa.me/5561983103265?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20do%20ateli%C3%AA!"
+    >
+      <img class="caixa-fly" src="../img/caixa-de-texto.png" alt="" />
+      <img
+        class="mascotinha-fly"
+        src="../img/mascotinha-adriana-pdf-removebg.png"
+        alt=""
+      />
+    </a>
+    <header>
+      <img class="logored" src="../img/logo_redondab.png" alt="" />
+      <h2 class="h2-1">Ateliê &nbsp;Fino &nbsp;Artesanato</h2>
+      <h2 class="h2-2">Seja bem-vindo</h2>
+      <ul id="prim-coluna">
+        <!--
+        <li><a href="sobre.html">Sobre</a></li>
+        -->
+        <li id="bordadoom">
+          <a href="#bordado" class="scroll-suave">Panos Bordados</a>
+        </li>
+        <li id="estampaom">
+          <a class="scroll-suave" href="#estampa">Estampas</a>
+        </li>
+        <li class="link-container">
+          <a class="drop-btn scroll-suave" href="#produtos">Produtos</a>
+          <div class="drop">
+            <a class="scroll-suave" href="#bordado">Panos Bordados</a>
+            <a class="scroll-suave" href="#toalha">Toalhas</a>
+            <a class="scroll-suave" href="#estampa">Estampas</a>
+            <!--
+            <a class="scroll-suave" href="#etiqueta">Etiquetas</a>
+            -->
+          </div>
+        </li>
+      </ul>
+      <ul class="bordadolink">
+        <li><a class="scroll-suave" href="#contato">Contato</a></li>
+        <li id="toalhaom">
+          <a class="scroll-suave" href="#toalha">Toalhas</a>
+        </li>
+      </ul>
+    </header>
+
+    <div class="sobre">
+      <section class="section1">
+        <h2>Fino Artesanato</h2>
+        <p>
+          Ateliê Fino Artesanato é uma loja destinada à venda de bordados
+          computadorizados, panos de prato, bordado em toalhas, etiquetas
+          personalizadas, uniforme profissionais personalizados e estampas de
+          roupas variadas. Tudo com a mais alta qualidade.
+        </p>
+      </section>
+
+      <section class="section2">
+        <article class="card1">
+          <h2>Missão</h2>
+          <p>
+            Oferecer produtos com qualidade, garantindo a satisfação dos
+            clientes. Trabalhar em busca de novos produtos, oferecendo mais
+            opções, mantendo a qualidade e confiabilidade nos serviços.
+          </p>
+        </article>
+        <article class="card2">
+          <h2>Visão</h2>
+          <p>
+            Permanecer por muito tempo no mercado e com bons resultados,
+            tornando referência na produção de peças para o cliente que é a
+            razão de ser da empresa.
+          </p>
+        </article>
+        <article class="card3">
+          <h2>Valores</h2>
+          <ul>
+            <li>Comprometimento</li>
+            <li>Determinação</li>
+            <li>Respeito</li>
+            <li>Qualidade</li>
+            <li>Confiança</li>
+            <li>Diversidade</li>
+            <li>Ética</li>
+          </ul>
+        </article>
+        <article class="card4">
+          <h2>Objetivos</h2>
+          <p>
+            Ser uma empresa de referência no mercado, reconhecida pelos clientes
+            e fornecedores pela qualidade dos serviços e produtos.
+          </p>
+        </article>
+      </section>
+    </div>
+    <div class="ttprod">
+      <img src="../img/cedula.png" alt="" />
+      <h2 id="produtos">Produtos</h2>
+    </div>
+    <div class="ttprod">
+      <h2 id="bordado">Panos Bordados</h2>
+    </div>
+    <div class="bordado">
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/pano1.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano2.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano3.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano4.jpg" alt="" />
+      </article>
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/pano5.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano6.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano7.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano8.jpg" alt="" />
+      </article>
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/pano9.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano10.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano11.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano12.jpg" alt="" />
+      </article>
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/pano13.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano14.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano15.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano16.jpg" alt="" />
+      </article>
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/pano17.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano18.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano19.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/pano20.jpg" alt="" />
+      </article>
+    </div>
+
+    <div id="prodf" class="finalprod">
+      <p>
+        Estes são alguns de nossos bordados. Caso queira conferir outras opções,
+        chame-nos no WhatsApp!
+      </p>
+    </div>
+
+    <div class="ttprod">
+      <h2 id="toalha">Toalhas</h2>
+    </div>
+    <div class="toalha">
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/toalha1.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha2.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha3.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha4.jpg" alt="" />
+      </article>
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/toalha5.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha6.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha7.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha8.jpg" alt="" />
+      </article>
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/toalha9.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha10.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha11.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/toalha12.jpg" alt="" />
+      </article>
+    </div>
+
+    <div id="prodf" class="finalprod">
+      <p>
+        Estas são algumas de nossas toalhas personalizadas. Caso queira conferir
+        outras opções, chame-nos no WhatsApp!
+      </p>
+    </div>
+
+    <div class="ttprod">
+      <h2 id="estampa">Estampas</h2>
+    </div>
+    <div class="estampa">
+      <article id="prodmrg" class="fundoprod">
+        <img src="../img/estampa1.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/estampa2.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/estampa3.jpg" alt="" />
+      </article>
+      <article class="fundoprod">
+        <img src="../img/estampa4.jpg" alt="" />
+      </article>
+    </div>
+
+    <div id="prodf" class="finalprod">
+      <p>
+        Estas são algumas de nossas estampas personalizadas. Caso queira
+        conferir outras opções, chame-nos no WhatsApp!
+      </p>
+    </div>
+
+    <!--
+    <div class="ttprod">
+      <h2 id="etiqueta">Etiquetas</h2>
+    </div> 
+    -->
+
+    <footer id="contato">
+      <div class="tudofoot">
+        <img id="semmrg" class="barra" src="../img/barra-icon.png" alt="" />
+
+        <p class="footinfo">INFORMAÇÕES DE CONTATO</p>
+
+        <img id="semmrg" class="barra" src="../img/barra-icon.png" alt="" />
+
+        <a
+          target="_blank"
+          href="https://www.instagram.com/atelie.finoartesanato/"
+        >
+          <img
+            class="instaicon"
+            src="../img/instagram.png"
+            alt="logo do instagram em png"
+          />
+          <p class="footinsta">@atelie.finoartesanato</p>
+        </a>
+
+        <img id="semmrg" class="barra" src="../img/barra-icon.png" alt="" />
+
+        <a
+          target="_blank"
+          href="https://wa.me/5561983103265?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20do%20ateli%C3%AA!"
+        >
+          <p class="wpptt">Clique para ir ao whatsapp</p>
+          <img class="wppicon" src="../img/whatsapp.png" alt="" />
+          <p class="footcell">+55 (61) 98310-3265</p>
+        </a>
+
+        <img id="semmrg" class="barra" src="../img/barra-icon.png" alt="" />
+        <a class="scroll-suave" href="#contato">
+          <img class="envelope" src="../img/envelope.png" alt="" />
+          <p class="footemail">adriana.drikaso@gmail.com</p>
+        </a>
+
+        <img id="semmrgult" class="barra" src="../img/barra-icon.png" alt="" />
+      </div>
+      <div class="endereco">
+        <img src="../img/casa.png" alt="" />
+        <p>Guará 2 - Brasília/DF</p>
+      </div>
+    </footer>
+  </body>
+</html>
