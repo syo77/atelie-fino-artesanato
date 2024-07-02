@@ -22,7 +22,7 @@
     header .h2-1 {
         display: flex;
         flex-flow: column wrap;
-        width: 31%;
+        width: 34%;
         margin: 0px 0px 0px 2px;
         padding: 10px 10px 0px 0px;
         font-size: 27px;
@@ -66,14 +66,20 @@
         display: none;
     }
 
+    #prim-coluna {
+        margin: 0px 4px 0px 0px;
+        /* border: 1px solid red; */
+    }
+
     .bordadolink {
         display: flex;
         flex-flow: column wrap;
         overflow: hidden;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px;
+        margin: 0px;
+        padding: 0px;
         justify-content: center;
         align-items: center;
+        /* border: 1px solid lightgreen; */
     }
 
     header .bordadolink li {
@@ -195,7 +201,7 @@
         margin-top: -15px;
         padding: 12px;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         font-family: "Rubik", sans-serif;
         font-weight: 390;
     }
