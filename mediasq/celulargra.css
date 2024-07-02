@@ -22,9 +22,9 @@
     header .h2-1 {
         display: flex;
         flex-flow: column wrap;
-        width: 34%;
+        width: 33%;
         margin: 0px 0px 0px 2px;
-        padding: 10px 10px 0px 0px;
+        padding: 10px 0px 0px 0px;
         font-size: 27px;
         /* border: 1px solid blue; */
     }
@@ -198,7 +198,7 @@
     }
     
     .section2 p {
-        margin-top: -15px;
+        margin-top: -20px;
         padding: 12px;
         text-align: center;
         font-size: 14px;
@@ -207,7 +207,7 @@
     }
     
     .section2 ul {
-        margin-top: -15px;
+        margin-top: -20px;
         padding: 12px;
         margin-left: 25px;
         font-size: 14px;
