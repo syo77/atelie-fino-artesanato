@@ -22,7 +22,7 @@
     header .h2-1 {
         display: flex;
         flex-flow: column wrap;
-        max-width: 124px;
+        width: 124px;
         margin: 7px 0px 0px 7px;
         padding: 0px 10px 0px 0px;
         font-size: 27px;
