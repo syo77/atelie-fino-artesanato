@@ -49,6 +49,13 @@ scale: 1;
 transition: 0.3s;
 }
 
+header ul li a:hover {
+    background-color: #C8909D;
+    color: black;
+    scale: 1;
+    transition: 1s;
+}
+
 .bordadolink {
 display: flex;
 flex-flow: column wrap;
@@ -125,6 +132,10 @@ display: flex;
 flex-flow: row wrap;
 width: 100%;
 /* border: 1px solid red; */
+}
+
+.section2 p {
+    font-size: 22px;
 }
 
 .card1 {

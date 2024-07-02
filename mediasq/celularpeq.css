@@ -14,10 +14,12 @@
     header .h2-1 {
         display: flex;
         flex-flow: column wrap;
-        width: 12%;
-        margin: 0px 16px 0px -2px;
+        width: 24%;
+        margin: 0px 16px 0px 4px;
         padding: 0px 0px;
-        font-size: 20px;
+        font-size: 24px;
+        align-items: center;
+        justify-content: center;
         /* border: 1px solid blue; */
     }
 
@@ -28,7 +30,7 @@
     header ul{
         display: flex;
         flex-flow: column wrap;
-        width: 40%;
+        width: 30%;
         margin: 0px;
         padding: 0px;
         justify-content: center;
@@ -51,6 +53,14 @@
         padding: 5px 10px;
         scale: 1;
         transition: 0.3s;
+        margin-right: -15px;
+    }
+
+    header ul li a:hover {
+        background-color: #C8909D;
+        color: black;
+        scale: 1.08;
+        transition: 1s;
     }
 
     .link-container {
@@ -62,7 +72,7 @@
         flex-flow: column wrap;
         overflow: hidden;
         width: 40%;
-        margin: 0px -65px 0px 0px;
+        margin: 0px -75px 0px 0px;
         padding: -10px;
         justify-content: center;
         align-items: center;
@@ -147,7 +157,7 @@
     }
 
     .section2 p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .section2 ul {
@@ -161,6 +171,11 @@
         padding: 0px;
     }
 
+    .card1:hover {
+        scale: 1;
+        transition: 0s;
+    }
+
     .card2 {
         width: 200px;
         height: 200px;
@@ -168,8 +183,9 @@
         padding: 0px;
     }
 
-    .card2 p {
-        font-size: 16px;
+    .card2:hover {
+        scale: 1;
+        transition: 0s;
     }
 
     .card3 {
@@ -180,8 +196,13 @@
     }
 
     .card3 ul {
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 30px;
+    }
+
+    .card3:hover {
+        scale: 1;
+        transition: 0s;
     }
 
     .card4 {
@@ -191,8 +212,9 @@
         padding: 0px;
     }
 
-    .card4 p {
-        font-size: 17px;
+    .card4:hover {
+        scale: 1;
+        transition: 0s;
     }
 
     .ttprod h2 {
@@ -326,12 +348,12 @@
     }
 
     footer .instaicon {
-        margin-left: 12px;
+        margin-left: 8px;
         margin-bottom: 10px;
     }
 
     footer .wppicon {
-        margin-left: 0px;
+        margin-left: -5px;
         margin-bottom: 10px;
     }
 
@@ -345,13 +367,13 @@
         justify-content: center;
         align-items: center;
         /* border: 1px solid black; */
+        margin: 0px;
     }
 
     footer .endereco img {
         display: inline-block;
         margin-bottom: 10px;
-        margin-left: -20px;
-
+        margin-left: -23px;
     }
 
     .mascotinha-fly {

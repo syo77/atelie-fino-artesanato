@@ -55,7 +55,10 @@
     }
 
     header ul li a:hover {
-    scale: 1;
+        background-color: #C8909D;
+        color: black;
+        scale: 1;
+        transition: 1s;
     }
     
     .link-container {
@@ -239,7 +242,7 @@
     }
 
     .bordado .fundoprod:hover {
-        scale: 1.02;
+        scale: 1;
     }
     
     #prodmrg {
@@ -297,8 +300,8 @@
     }
     
     .toalha .fundoprod:hover {
-        scale: 1.05;
-        transition: 0.5s;
+        scale: 1;
+        transition: 0;
     }
     
     .toalha img {
@@ -329,8 +332,8 @@
     }
     
     .estampa .fundoprod:hover {
-        scale: 1.05;
-        transition: 0.5s;
+        scale: 1;
+        transition: 0s;
     }
     
     .estampa img {
