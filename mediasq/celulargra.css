@@ -22,13 +22,13 @@
     header .h2-1 {
         display: flex;
         flex-flow: column wrap;
-        width: 33%;
+        width: 30%;
         margin: 0px 0px 0px 2px;
         padding: 5px 10px 0px 0px;
         font-size: 27px;
         justify-content: center;
         align-items: center;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
     }
     
     header .h2-2 {
