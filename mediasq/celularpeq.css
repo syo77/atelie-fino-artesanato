@@ -377,11 +377,13 @@
     }
 
     .mascotinha-fly {
-        display: none;
+         width: 15%;
+         margin: 0px 20px 150px 0px;
     }
 
     .caixa-fly {
-        display: none;
+         width: 15%;
+         margin: 0px 30px 260px 0px;
     }
 
 
