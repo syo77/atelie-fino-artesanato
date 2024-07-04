@@ -288,27 +288,32 @@ align-items: center;
 }
 
 footer .barra {
-    display: none;
+display: none;
 }
 
 footer .footinfo {
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 footer a {
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 footer .endereco {
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .mascotinha-fly {
-display: none;
+width: 15%;
+z-index: 999;
+margin-right: -18px;
 }
 
 .caixa-fly {
-display: none;
+width: 15%;
+z-index: 998;
+margin-bottom: 260px;
+margin-right: -5px;
 }
 
 

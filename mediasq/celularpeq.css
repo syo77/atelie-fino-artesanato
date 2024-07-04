@@ -314,15 +314,15 @@
         flex-flow: column wrap;
         width: 100%;
         height: 100%;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
     }
 
     footer .tudofoot {
         display: flex;
         flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
     }
 
     footer .barra {
@@ -345,15 +345,17 @@
     footer .footinfo {
         margin-top: 15px;
         margin-bottom: 15px;
+        margin-left: 0px;
+        font-size: 20px;
     }
 
     footer .instaicon {
-        margin-left: 8px;
+        margin-left: -73px;
         margin-bottom: 10px;
     }
 
     footer .wppicon {
-        margin-left: -5px;
+        margin-left: -83px;
         margin-bottom: 10px;
     }
 
@@ -364,7 +366,7 @@
     footer .endereco {
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         /* border: 1px solid black; */
         margin: 0px;
@@ -373,17 +375,19 @@
     footer .endereco img {
         display: inline-block;
         margin-bottom: 10px;
-        margin-left: -23px;
+        margin-left: -100px
     }
 
     .mascotinha-fly {
          width: 15%;
          margin: 0px 20px 150px 0px;
+         z-index: 999;
     }
 
     .caixa-fly {
          width: 15%;
          margin: 0px 30px 260px 0px;
+         z-index: 998;
     }
 
 

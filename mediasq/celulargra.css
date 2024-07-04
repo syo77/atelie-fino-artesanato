@@ -389,7 +389,7 @@
         height: 30px;
         padding: 10px 0px;
         display: inline-block;
-        margin-left: 6px;
+        margin-left: -70px;
     }
 
     footer .endereco p {
@@ -416,7 +416,7 @@
     }
     
     footer .wppicon {
-        margin-left: 25px;
+        margin-left: -53px;
     }
 
     footer .envelope {
@@ -424,11 +424,15 @@
     }
 
     footer .footinfo {
-    font-size: 15px;
+    font-size: 22px;
     }
 
     footer .footinsta {
         font-size: 15px;
+    }
+
+    footer .instaicon {
+        margin-left: -40px;
     }
     
     footer .wpptt {
@@ -446,11 +450,16 @@
     }
 
     .mascotinha-fly {
-        display: none;
+        margin-right: -14px;
+        width: 20%;
+        z-index: 999;
     }
 
     .caixa-fly {
-        display: none;
+        margin-bottom: 225px;
+        margin-right: -5px;
+        width: 20%;
+        z-index: 998;
     }
 
 

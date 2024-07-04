@@ -187,6 +187,10 @@ footer .tudofoot {
     align-items: center;
 }
 
+footer .footinfo {
+    font-size: 30px;
+}
+
 footer .barra {
     display: none;
 }
@@ -196,11 +200,16 @@ footer img {
 }
 
 .mascotinha-fly {
-    display: none;
+    margin-right: -20px;
+    width: 12%;
+    z-index: 999;
 }
 
 .caixa-fly {
-    display: none;
+    margin-right: -5px;
+    margin-bottom: 270px;
+    width: 12%;
+    z-index: 998;
 }
 
 

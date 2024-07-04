@@ -203,14 +203,20 @@
 
     footer .footinfo {
         margin: 20px 0px;
+        font-size: 28px;
     }
 
     .mascotinha-fly {
         width: 15%;
+        margin-right: -20px;
+        z-index: 999;
     }
 
     .caixa-fly {
         width: 15%;
+        margin-bottom: 260px;
+        margin-right: -5px;
+        z-index: 998;
     }
 
 
