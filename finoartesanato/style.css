@@ -464,6 +464,10 @@ footer .wpptt {
     margin-left: 33px;
 }
 
+footer .footinfo {
+    margin-left: 70px;
+}
+
 footer #semmrg {
     margin-left: 20px;
     margin-right: -35px;
@@ -519,7 +523,7 @@ footer #semmrgult {
   
   /* Estiliza o manipulador da barra de rolagem */
   ::-webkit-scrollbar-thumb {
-    background: #CAC6C1; /* Cor do manipulador */
+    background: #fd4570; /* Cor do manipulador */
     border-radius: 10px;
   }
   
@@ -536,5 +540,5 @@ footer #semmrgult {
 
     /* Estiliza o fundo da barra de rolagem */
 ::-webkit-scrollbar-track {
-    background: #fdc0ce; /* Cor de fundo */
+    background: #ff99b1; /* Cor de fundo */
   }
